@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <carolina-header></carolina-header>
+    <main>
+        <div class="pageDescription">
+            <h1 class="booking-words">Booking</h1>
+            <p class="booking-words">If you would like to book an activity please fill out the booking form below.</p>
+        </div>
+        <section class="formContainer">
+            <h2>Booking Form</h2>
+            <form class="myForm" action="">
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" id="email"><br>
+                <label for="number">Phone Number:</label><br>
+                <input type="number" name="number" id="number"><br>
+                <br>
+                <p>Please choose the activity(s) you would like to book.</p> <br>
+                <input type="checkbox" name="hiking" id="hiking">
+                <label for="hiking">Hiking</label><br>
+                <input type="checkbox" name="rafting" id="rafting">
+                <label for="rafting">Rafting</label><br>
+                <input type="checkbox" name="horseRiding" id="horseRiding">
+                <label for="horseRiding">Horse-back Riding</label><br>
+                <br>
+                <p>When you submit we will contact you.</p><br>
+                <input type="submit" value="Submit">
+
+            </form>
+        </section>
+    </main>
+    <carolina-footer></carolina-footer>
+   <script src="./js/header_footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+/*Carolina Adventures CSS Styles*/
+/*******************************/
+
+/**************************************Site Wide Styles*****************************************************/
+* {
+    box-sizing: border-box;
+    font-family: verdana, Tahoma, sans-serif;
+}
+body {
+    font-family: verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header and Footer Styles*/
+#companyLogo {
+    color: cornflowerblue;
+    text-shadow: 2px 2px coral;
+}
+header {
+    display: flex;
+    background-color: antiquewhite;
+}
+header, footer{
+    padding: 20px;
+    
+}
+footer {
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px;
+    background-color: lightslategray;
+}
+
+/*Nav Bar Styles*/
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px;
+}
+.navLink {
+    padding: 25px;
+}
+#booking {
+    border: 2px solid coral;
+    background-color: rgb(246, 82, 53);
+    border-radius: 20px;
+}
+nav a:link {color: black; text-decoration: none;}
+nav a:visited {color: black;}
+nav a:hover {color:brown}
+nav a:active {color: aqua;}
+
+.top-image {
+    height: 600px;
+    width: 100%;
+}
+.pageDescription {
+    padding: 20px;
+    margin: 10px;
+}
+main {
+    width: 100%;
+    margin: 0 auto;
+    flex: 1 0 auto;
+    background-color: whitesmoke;
+}
+section {
+    padding: 20px;
+    margin: 15px;
+}
+/**************************************************INDEX*******************************************************************/
+.flexSection {
+    display: flex;
+    justify-content: space-between;
+    border: 13px solid coral;
+}
+.card {
+    width: 33%;
+    margin: 20px;
+    padding: 5px;
+}
+.indexImages {
+    height: 375px;
+    width: 100%;
+    border: 5px solid coral;
+}
+.index-words{
+    text-shadow: 1px 1px coral;
+    
+}
+button {
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px lightblue;
+    border: 5px double black;
+}
+/**************************************************Horse-Riding*******************************************************************/
+.tableContainer {
+    border: 13px solid rgba(255, 132, 0, 0.416);
+}
+table {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    margin: 10px;
+    padding: 20px;
+}
+.horse-image {
+    height: 350px;
+    width: 400px;
+    border: 5px solid rgba(255, 132, 0, 0.416);
+}
+.horse-words {
+    text-shadow: 1px 1px rgba(255, 132, 0, 0.416);
+}
+/**************************************************Hiking*******************************************************************/
+.trailContainer {
+    display: flex;
+    flex-direction: column;
+    border: 13px solid rgb(126, 208, 126);
+}
+.trailSection {
+    padding: 20px;
+}
+.extra-images {
+    height: 220px;
+    width: 300px;
+    border: 5px solid rgb(126, 208, 126);
+}
+.hiking-word {
+    text-shadow: 1px 1px rgb(126, 208, 126);
+}
+/**************************************************Rafting*******************************************************************/
+.raftingContainer {
+    display: flex;
+    border: 13px solid lightblue;
+}
+.raftingSection {
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.raftingPicture {
+    justify-content: center;
+    height: 250px;
+    width: 450px;
+    border: 5px solid lightblue;
+}
+.rafting-words {
+    text-shadow: 1px 1px lightblue;
+}
+/**************************************************Booking*******************************************************************/
+.formContainer {
+    padding: 20px;
+    text-align: center;
+    border: 5px double rgb(246, 82, 53);
+}
+.myForm {
+    padding: 20px;
+    border: 2px solid black;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.booking-words {
+    text-shadow: 1px 1px red;
+}
+/**************************************************About**********************************************************************/
