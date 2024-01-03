@@ -91,10 +91,6 @@ section {
     width: 100%;
     border: 5px solid coral;
 }
-.index-words{
-    text-shadow: 1px 1px coral;
-    
-}
 button {
     border-radius: 8px;
     padding: 8px;
